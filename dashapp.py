@@ -6,7 +6,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # Connect to the Sakila database
-engine = create_engine('mysql://root:Fynn2704@localhost/sakila')
+engine = create_engine('mysql://root:betroy2004@localhost/sakila')
 
 # Define SQL queries
 query1 = """
