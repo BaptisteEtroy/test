@@ -15,7 +15,7 @@ client = InfluxDBClient(url=url, token=token, org=org)
 write_api = client.write_api(write_options=SYNCHRONOUS)
 
 # Initialize SQLAlchemy engine for MySQL
-engine = create_engine('mysql://root:Fynn2704@localhost/sakila')
+engine = create_engine('mysql://root:betroy2004@localhost/sakila')
 
 # Your SQL query
 query = """
